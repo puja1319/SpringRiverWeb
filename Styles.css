@@ -1,0 +1,143 @@
+/* styles.css */
+
+/* Define a custom property for the active color */
+:root {
+    --active-color: #7A1AE4;
+    /* Change to your desired color */
+}
+
+.nav-link {
+    position: relative;
+    padding-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    color: #131735;
+    font-weight: 500;
+    font-size: 15px;
+    /* Default text color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: var(--active-color);
+    /* Use the custom property for active text */
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: var(--active-color);
+    /* Use the same color for the bottom border */
+    border-radius: 2px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--active-color) !important;
+}
+
+.button_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.get_in_touch_btn {
+    width: 192px;
+    height: 54px;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(60deg, #ED5534, #431EEB) border-box;
+    color: #180141;
+    font-weight: 500;
+    padding: 0px 38px;
+    border: 1.5px solid transparent;
+    border-radius: 40px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: left;
+}
+
+.round_arrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    /* gap: 10px;
+    opacity: 0px; */
+
+}
+
+.carousel_head {
+    font-family: Poppins, sans-serif;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    /* background: linear-gradient(232.64deg, #F88907 14.77%, #7B3BBB 71.65%); */
+    background-image: linear-gradient(#F88907, #7B3BBB);
+    color: transparent;
+    background-clip: text;
+}
+
+.carousel_sub_head {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 35.84px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.carousel_about {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #EEEEF2;
+}
+
+.explore_btn {
+    width: 205px;
+    height: 62px;
+    background-image: linear-gradient(to right, #ED5534, #431EEB);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 0px 38px;
+    border: 0px solid transparent;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: left;
+}
+
+.explore_round_arrow {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+@media screen and (orientation: landscape) {
+    /* .carousel img {
+        height: 100vh;
+    } */
+}
