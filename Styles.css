@@ -258,6 +258,12 @@
     /* background-color: #cccccc; */
 }
 
+.project_card {
+    width: 280px !important;
+    height: 480px !important;
+    border-radius: 40px !important;
+}
+
 @media screen and (orientation: landscape) {
     /* .carousel img {
         height: 100vh;
