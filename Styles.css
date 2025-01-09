@@ -1,5 +1,7 @@
 /* styles.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 /* Define a custom property for the active color */
 :root {
     --active-color: #7A1AE4;
@@ -91,7 +93,7 @@
 }
 
 .carousel_sub_head {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-size: 32px;
     font-weight: 500;
     line-height: 35.84px;
@@ -258,10 +260,155 @@
     /* background-color: #cccccc; */
 }
 
+.projects_head {
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.projects_sub_head {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ACABDC;
+}
+
 .project_card {
     width: 280px !important;
     height: 480px !important;
     border-radius: 40px !important;
+    border: 0px;
+}
+
+.project_card_img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.project_card_title {
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #131735;
+}
+
+.project_card_text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #4F4F5E;
+    margin-bottom: 12%;
+}
+
+.projects_know_more_btn {
+    width: 170px;
+    height: 50px;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(60deg, #ED5534, #431EEB) border-box;
+    color: #180141;
+    font-weight: 600;
+    padding: 0px 30px;
+    border: 1.5px solid transparent;
+    border-radius: 40px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: left;
+}
+
+.project_round_arrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    right: 45px;
+    /* gap: 10px;
+    opacity: 0px; */
+
+}
+
+.service_sub_head {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+    /* letter-spacing: -0.01em; */
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #131735;
+    padding-right: 22%;
+}
+
+.service_subject {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #4F4F5E;
+}
+
+.mt_service {
+    margin-top: 7%
+}
+
+.service_card {
+    width: 520px !important;
+    height: 620px !important;
+    border-radius: 40px !important;
+    border: 0px;
+    background: #F5F6FB;
+}
+
+.service_button_div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+.snr_tag {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #686D74;
+}
+
+.service_round_arrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    left: 140px;
+    /* gap: 10px;
+    opacity: 0px; */
+
 }
 
 @media screen and (orientation: landscape) {
