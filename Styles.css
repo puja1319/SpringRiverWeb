@@ -1,6 +1,7 @@
 /* styles.css */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 /* Define a custom property for the active color */
 :root {
@@ -51,14 +52,14 @@
 }
 
 .get_in_touch_btn {
-    width: 192px;
+    width: 174px;
     height: 54px;
     background:
         linear-gradient(#fff, #fff) padding-box,
         linear-gradient(60deg, #ED5534, #431EEB) border-box;
     color: #180141;
     font-weight: 500;
-    padding: 0px 38px;
+    padding: 0px 22px;
     border: 1.5px solid transparent;
     border-radius: 40px;
     display: inline-block;
@@ -71,7 +72,7 @@
     height: 40px;
     position: absolute;
     top: 7px;
-    right: 8px;
+    right: 6px;
     /* gap: 10px;
     opacity: 0px; */
 
@@ -82,7 +83,6 @@
     font-size: 96px;
     font-weight: 600;
     line-height: 80px;
-    letter-spacing: -0.04em;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -97,7 +97,6 @@
     font-size: 32px;
     font-weight: 500;
     line-height: 35.84px;
-    letter-spacing: -0.01em;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -116,13 +115,13 @@
 }
 
 .explore_btn {
-    width: 205px;
+    width: 184px;
     height: 62px;
     background-image: linear-gradient(to right, #ED5534, #431EEB);
     box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
     color: #FFFFFF;
     font-weight: 500;
-    padding: 0px 38px;
+    padding: 0px 24px;
     border: 0px solid transparent;
     border-radius: 100px;
     display: inline-block;
@@ -135,7 +134,7 @@
     height: 45px;
     position: absolute;
     top: 8px;
-    right: 8px;
+    right: 6px;
 }
 
 .know_more_button_div {
@@ -146,14 +145,14 @@
 }
 
 .know_more_btn {
-    width: 205px;
-    height: 62px;
+    width: 184px;
+    height: 58px;
     background:
         linear-gradient(#fff, #fff) padding-box,
         linear-gradient(60deg, #ED5534, #431EEB) border-box;
     color: #180141;
     font-weight: 600;
-    padding: 0px 38px;
+    padding: 0px 24px;
     border: 1.5px solid transparent;
     border-radius: 40px;
     display: inline-block;
@@ -165,8 +164,8 @@
     width: 46px;
     height: 46px;
     position: absolute;
-    top: 8px;
-    left: 151px;
+    top: 6px;
+    left: 132px;
     /* gap: 10px;
     opacity: 0px; */
 
@@ -184,11 +183,10 @@
 }
 
 .about_sub {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-size: 32px;
     font-weight: 500;
     line-height: 40px;
-    letter-spacing: -0.01em;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -232,7 +230,6 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 18px;
-    letter-spacing: -0.01em;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -265,7 +262,6 @@
     font-size: 48px;
     font-weight: 600;
     line-height: 42px;
-    letter-spacing: -0.01em;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -300,7 +296,6 @@
     font-size: 24px;
     font-weight: 600;
     line-height: 36px;
-    letter-spacing: -0.01em;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -320,14 +315,14 @@
 }
 
 .projects_know_more_btn {
-    width: 170px;
+    width: 154px;
     height: 50px;
     background:
         linear-gradient(#fff, #fff) padding-box,
         linear-gradient(60deg, #ED5534, #431EEB) border-box;
     color: #180141;
     font-weight: 600;
-    padding: 0px 30px;
+    padding: 0px 16px;
     border: 1.5px solid transparent;
     border-radius: 40px;
     display: inline-block;
@@ -340,22 +335,24 @@
     height: 40px;
     position: absolute;
     top: 5px;
-    right: 45px;
+    right: 53px;
     /* gap: 10px;
     opacity: 0px; */
 
 }
 
 .service_sub_head {
-    font-family: Poppins;
-    font-size: 48px;
+    font-family: Poppins, sans-serif;
+    font-size: 46px;
     font-weight: 600;
     line-height: 48px;
-    /* letter-spacing: -0.01em; */
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #131735;
+}
+
+.pr_22 {
     padding-right: 22%;
 }
 
@@ -375,7 +372,7 @@
 }
 
 .service_card {
-    width: 520px !important;
+    width: 542px !important;
     height: 620px !important;
     border-radius: 40px !important;
     border: 0px;
@@ -405,10 +402,101 @@
     height: 40px;
     position: absolute;
     top: 5px;
-    left: 140px;
+    left: 124px;
     /* gap: 10px;
     opacity: 0px; */
 
+}
+
+.service_big_card {
+    width: 100% !important;
+    height: auto;
+    border-radius: 40px !important;
+    border: 0px;
+    /* background-color: #D1DDFD; */
+    background-image: url("./images/service_card_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service_explore_round_arrow {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 8px;
+    right: 36%;
+}
+
+.service_big_card_title {
+    font-family: Poppins, sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 62px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #131735;
+}
+
+.service_big_card_title>span {
+    color: #8325FC;
+}
+
+.service_p_x {
+    padding-left: 23%;
+    padding-right: 23%;
+}
+
+.innovation {
+    background-color: #F5F6FF;
+}
+
+.w_42 {
+    width: fit-content;
+}
+
+.innovation_icon {
+    /* height: 50px; */
+    /* width: 50px; */
+}
+
+.discovery {
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 58px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #767A7E;
+}
+
+.Consulting {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #74777C;
+}
+
+.experiment_card {
+    border: 1px solid #A0A7B16B;
+    border-radius: 60px;
+    max-height: 742px;
+}
+
+.experiments {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #131735;
 }
 
 @media screen and (orientation: landscape) {
