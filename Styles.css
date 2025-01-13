@@ -672,11 +672,15 @@
     width: 8%;
 }
 
-
+.image-button {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
 
 @media screen and (orientation: landscape) {
     /* .carousel img {
         height: 100vh;
     } */
 }
-
