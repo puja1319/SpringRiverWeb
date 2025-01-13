@@ -429,7 +429,7 @@
 
 .service_big_card_title {
     font-family: Poppins, sans-serif;
-    font-size: 52px;
+    font-size: 51px;
     font-weight: 600;
     line-height: 62px;
     text-align: center;
@@ -497,6 +497,154 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #131735;
+}
+
+.get_in_touch {
+    background-image: url("./images/get_in_touch.png");
+}
+
+.get_in_touch_head {
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 62px;
+    text-align: left;
+    color: #FA7070;
+}
+
+.get_in_touch_head>span {
+    color: #FFFFFF;
+}
+
+.get_in_touch_sub {
+    color: #E0DAE8;
+}
+
+.connection_div {
+    width: 72%;
+    /* border: 1px solid red; */
+}
+
+.call_div {
+    width: 37%;
+    /* border:1px solid red; */
+}
+
+.mail_div {
+    width: 54%;
+    /* border: 1px solid red; */
+}
+
+.contact_text_style {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.get_in_touch_left {
+    border-right: 0.5px solid #BF8FFF;
+}
+
+.talk_about_project {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.get_in_touch_button_div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+.contact_us_btn {
+    width: 172px;
+    height: 58px;
+    background-image: linear-gradient(to right, #ED5534, #431EEB);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 0px 24px;
+    border: 0px solid transparent;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: left;
+}
+
+.contact_us_round_arrow {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 6px;
+    right: 36%;
+}
+
+.footer_menu_pl {
+    padding-left: 4%;
+}
+
+.footer_head {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #131735;
+}
+
+.footer_menu {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #4F4F5E;
+}
+
+.footer_news_menu {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #4F4F5E;
+}
+
+.newsletter_input {
+    border: 0.5px solid #6D7178;
+    border-radius: 8px;
+    width: 165px;
+    height: 35px;
+}
+
+.newsletter_input::placeholder {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #4F4F5E;
+}
+
+.red_box_arrow {
+    right: 2%;
+    top:9%;
+}
+
+.footer_foot {
+    background-color: #090217;
+}
+
+.link_div {
+    width: 8%;
 }
 
 @media screen and (orientation: landscape) {
