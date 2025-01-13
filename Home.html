@@ -20,10 +20,10 @@
     <!----------------------------Navbar-------------------------->
 
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light py-0">
         <div class="container-fluid">
           <a class="navbar-brand pe-4" href="#">
-            <img src="./images/logo.png" alt="Logo" />
+            <img src="./images/logo.png" alt="Logo" class="logo_width" />
             <!-- Replace with your logo -->
           </a>
           <button
@@ -101,10 +101,11 @@
 
     <!----------------------------Carousel-------------------------->
 
+    <!-- data-bs-ride="carousel" lin:326 instead of false -->
     <div
       id="carouselExampleInterval"
       class="carousel slide"
-      data-bs-ride="carousel"
+      data-bs-ride="false"
     >
       <!-- <div class="carousel-indicators">
         <button
@@ -149,7 +150,7 @@
             </p>
             <div class="button_div">
               <button class="explore_btn" type="button">Explore Now</button>
-              <img src="./images/arrow.png" class="explore_round_arrow" />
+              <img src="./images/arrow.svg" class="explore_round_arrow" />
             </div>
           </div>
         </div>
@@ -173,7 +174,7 @@
             </p>
             <div class="button_div">
               <button class="explore_btn" type="button">Explore Now</button>
-              <img src="./images/arrow.png" class="explore_round_arrow" />
+              <img src="./images/arrow.svg" class="explore_round_arrow" />
             </div>
           </div>
         </div>
@@ -197,7 +198,7 @@
             </p>
             <div class="button_div">
               <button class="explore_btn" type="button">Explore Now</button>
-              <img src="./images/arrow.png" class="explore_round_arrow" />
+              <img src="./images/arrow.svg" class="explore_round_arrow" />
             </div>
           </div>
         </div>
@@ -304,8 +305,8 @@
 
     <!-----------------Projects------------------------->
 
-    <div class="projects_div">
-      <div class="container pt-4">
+    <div class="projects_div py-5">
+      <div class="container pb-4">
         <div class="row">
           <div class="col-12 col-md-5">
             <div class="projects_head pt-5">Projects we Worked</div>
@@ -316,8 +317,8 @@
           </div>
           <div class="col-12 col-md-7"></div>
         </div>
-
-        <div class="row">
+        <!-- data-bs-ride="carousel" lin:326 instead of false -->
+        <div class="row mb-5">
           <div
             id="carouselExampleControls"
             class="carousel carousel-dark slide"
@@ -512,7 +513,7 @@
                 need to find out root causes and remedial measures
               </p>
               <div class="ms-auto service_button_div ps-3">
-                <button class="projects_know_more_btn" type="button">
+                <button class="buisness_know_more_btn" type="button">
                   Know More
                 </button>
                 <img
@@ -535,18 +536,19 @@
                 <li>Spring & River Services</li>
               </ul>
               <h5 class="project_card_title ps-3" style="text-align: start">
-                Business Consulting
+                Business Solutions
               </h5>
               <p
                 class="project_card_text mb-5 ps-3 pt-3"
                 style="text-align: start"
               >
-                Your sales figures are lower than your expectations and repeat
-                sales are not up to the mark. You cannot figure out why. You
-                need to find out root causes and remedial measures
+                Natural Language Processing: You have a lot of data in textual
+                form. The texts contain qualitative information and opinions, as
+                well as numerical data and tables. The relevant data has to be
+                extracted
               </p>
               <div class="ms-auto service_button_div ps-3">
-                <button class="projects_know_more_btn" type="button">
+                <button class="buisness_know_more_btn" type="button">
                   Know More
                 </button>
                 <img
@@ -571,7 +573,7 @@
               <div class="button_div">
                 <button class="explore_btn" type="button">Lets Connect!</button>
                 <img
-                  src="./images/arrow.png"
+                  src="./images/arrow.svg"
                   class="service_explore_round_arrow"
                 />
               </div>
@@ -591,12 +593,12 @@
           <div class="col-12 col-md-6">
             <div class="">
               <div class="card-body">
-                <div class="snr_tag">Our Enterprise </div>
+                <div class="snr_tag">Our Enterprise</div>
                 <h5 class="service_sub_head mb-4">
                   Innovation in Action<br />
                   Our Methods
                 </h5>
-                <h6 class="card_text">
+                <h6 class="card_text mb-5">
                   Spring and River Software Company" is an innovative tech firm
                   that draws its inspiration from the dynamic and ever-flowing
                   forces of nature. Just like the rejuvenating essence of spring
@@ -735,7 +737,7 @@
               </div>
               <div class="get_in_touch_button_div">
                 <button class="contact_us_btn" type="button">Contact Us</button>
-                <img src="./images/arrow.png" class="contact_us_round_arrow" />
+                <img src="./images/arrow.svg" class="contact_us_round_arrow" />
               </div>
             </div>
           </div>
@@ -750,7 +752,7 @@
     <div class="container">
       <div class="row py-5">
         <div class="col-12 col-md-2">
-          <img src="./images/logo.png" />
+          <img src="./images/logo.png" class="logo_width" />
         </div>
         <div class="col-12 col-md-2 footer_menu_pl">
           <div class="footer_head mb-1">Pages</div>
@@ -799,7 +801,9 @@
     </div>
     <div class="footer_foot py-2">
       <div class="container d-flex justify-content-between">
-        <div class="footer_news_menu d-flex align-items-center text-white">© 2024 Copyright Spring & River. All rights reserved</div>
+        <div class="footer_news_menu d-flex align-items-center text-white">
+          © 2024 Copyright Spring & River. All rights reserved
+        </div>
         <div class="d-flex justify-content-between link_div">
           <img src="./images/linkedin.svg" />
           <img src="./images/facebook.svg" />
@@ -814,6 +818,11 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
     <script src="script.js"></script>
